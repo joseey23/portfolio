@@ -77,7 +77,7 @@ export default function Home() {
               
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-90 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} layout="fill" objectFit="cover" alt=""/>
             </div>
           </div>
         </section>
@@ -97,7 +97,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt=""/>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Software Development
               </h3>
@@ -111,7 +111,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Sass</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt=""/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 UI/UX design
               </h3>
@@ -124,7 +124,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt=""/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">Web Development</h3>
               <p className="py-2">
                 I develop and bring to life web applications based on client's design and ideas.
@@ -157,6 +157,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web1}
+                alt=""
               />
               </a>
             </div>
@@ -168,6 +169,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web1}
+                alt=""
               />
               </a>
             </div>
