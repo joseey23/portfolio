@@ -150,59 +150,71 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
+            <a href="https://sokoverse-beryl.vercel.app" target="blank">
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover cursor-pointer"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web1}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://sokoverse-beryl.vercel.app" target="blank">
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover cursor-pointer"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web2}
+                src={web1}
               />
+              </a>
             </div>
-            <div className="basis-1/3 flex-1">
+            {/* <div className="basis-1/3 flex-1">
+            <a href="https://sokoverse-beryl.vercel.app" target="blank">
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover cursor-pointer"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web3}
+                src={web1}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://sokoverse-beryl.vercel.app" target="blank">
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover cursor-pointer"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web4}
+                src={web1}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://sokoverse-beryl.vercel.app" target="blank">
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover cursor-pointer"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web5}
+                src={web1}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://sokoverse-beryl.vercel.app" target="blank">
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover cursor-pointer"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web6}
+                src={web1}
               />
-            </div>
+              </a>
+            </div> */}
           </div>
         </section>
       </main>
