@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from "next/head";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -18,6 +18,7 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import logo from "../public/joe1.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -31,8 +32,16 @@ export default function Home() {
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">Hi 👋🏾 ,  I'm Joseey.</h1>
+          <nav className="py-8 mb-5 flex justify-between dark:text-white">
+            <Image
+              className="logo rounded-sm object-cover cursor-pointer"
+              // width={"4%"}
+              // height={"4%"}
+              layout="responsive"
+              src={logo}
+              alt=""
+            />
+            {/* <h1 className="font-burtons text-xl">Hi 👋🏾 , I'm Joseey.</h1> */}
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -43,7 +52,8 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1JQ6OL28KZ2Ww1Y6q8sxWAsQmxIzTYQof/view?usp=sharing" target="blank"
+                  href="https://drive.google.com/file/d/1JQ6OL28KZ2Ww1Y6q8sxWAsQmxIzTYQof/view?usp=sharing"
+                  target="blank"
                 >
                   Resume
                 </a>
@@ -58,26 +68,34 @@ export default function Home() {
               Front-end Developer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Well qualified Front-end Developer with a wide range of programming utilities and languages. Proficient in Reactjs and Nextjs. Collaborative team player with outstanding technical capabilities offering 3 years of coding experience and over 1 year of professional experience.
+              Well qualified Front-end Developer with a wide range of
+              programming utilities and languages. Proficient in Reactjs and
+              Nextjs. Collaborative team player with outstanding technical
+              capabilities offering 3 years of coding experience and over 1 year
+              of professional experience.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 cursor-pointer">
-              <a href="https://www.linkedin.com/in/joseph-maruria-67226619a/" target="blank">
-              <AiFillLinkedin />
+              <a
+                href="https://www.linkedin.com/in/joseph-maruria-67226619a/"
+                target="blank"
+              >
+                <AiFillLinkedin />
               </a>
               <a href="https://twitter.com/Joseey23" target="blank">
-              <AiFillTwitterCircle />
+                <AiFillTwitterCircle />
               </a>
               <a href="https://github.com/joseey23" target="blank">
-              <AiFillGithub />
+                <AiFillGithub />
               </a>
-              <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=[josephmaruria@gmail.com]" target="blank">
-              <AiFillMail />
+              <a
+                href="https://mail.google.com/mail/?view=cm&source=mailto&to=[josephmaruria@gmail.com]"
+                target="blank"
+              >
+                <AiFillMail />
               </a>
-              
-              
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-90 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" alt=""/>
+              <Image src={deved} layout="fill" objectFit="cover" alt="" />
             </div>
           </div>
         </section>
@@ -85,11 +103,12 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">My Expertise</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            I offer a wide range of services such as web design, interface design and brand design. These are the different 
+              I offer a wide range of services such as web design, interface
+              design and brand design. These are the different
               <span className="text-teal-500"> skills </span>
-              and <span className="text-teal-500">tools </span>
-              i have specialised in over the years i have created digital products
-              for both business and consumer use.
+              and <span className="text-teal-500">tools </span>i have
+              specialised in over the years i have created digital products for
+              both business and consumer use.
             </p>
             {/* <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer a wide range of services such as web design, interface design, brand design and software development.
@@ -97,26 +116,25 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} alt=""/>
+              <Image src={design} width={100} height={100} alt="" />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Software Development
               </h3>
               <p className="py-2">
-                I develop and bring to life projects using a vast variety of the latest technology.
+                I develop and bring to life projects using a vast variety of the
+                latest technology.
               </p>
               <h4 className="py-4 text-teal-600">Development tools</h4>
               <p className="text-gray-800 py-1">Reactjs</p>
-              <p className="text-gray-800 py-1">Nodejs</p>
-              <p className="text-gray-800 py-1">Tailwindcss</p>
-              <p className="text-gray-800 py-1">Sass</p>
+              <p className="text-gray-800 py-1">Nextjs</p>
+              <p className="text-gray-800 py-1">ReactNative</p>
+              <p className="text-gray-800 py-1">TailwindCSS</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} alt=""/>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-                UI/UX design
-              </h3>
+              <Image src={code} width={100} height={100} alt="" />
+              <h3 className="text-lg font-medium pt-8 pb-2 ">UI/UX design</h3>
               <p className="py-2">
-               I come up with interactive UI/UX designs for clients.
+                I come up with interactive UI/UX designs for clients.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools </h4>
               <p className="text-gray-800 py-1">Photoshop</p>
@@ -124,16 +142,19 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} alt=""/>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Web Development</h3>
+              <Image src={consulting} width={100} height={100} alt="" />
+              <h3 className="text-lg font-medium pt-8 pb-2 ">
+                Web Development
+              </h3>
               <p className="py-2">
-                I develop and bring to life web applications based on client's design and ideas.
+                I develop and bring to life web applications based on client's
+                design and ideas.
               </p>
               <h4 className="py-4 text-teal-600">Development Tools</h4>
-              <p className="text-gray-800 py-1">Reactjs</p>
-              <p className="text-gray-800 py-1">MongoDB</p>
-              <p className="text-gray-800 py-1">Express</p>
-              <p className="text-gray-800 py-1">Tailwind CSS</p>
+              <p className="text-gray-800 py-1">ReactJS</p>
+              <p className="text-gray-800 py-1">NextJS</p>
+              <p className="text-gray-800 py-1">GhostCMS</p>
+              <p className="text-gray-800 py-1">WordpressCMS</p>
             </div>
           </div>
         </section>
@@ -141,82 +162,80 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Works</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Here are some of the 
-              <span className="text-teal-500"> past projects </span>
-              
-               I managed to come up with over the years.
+              Here are some of the
+              <span className="text-teal-500"> past projects </span>I managed to
+              come up with over the years.
             </p>
-            
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-            <a href="https://sokoverse-beryl.vercel.app" target="blank">
-              <Image
-                className="rounded-lg object-cover cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web1}
-                alt=""
-              />
+              <a href="https://sokoverse-beryl.vercel.app" target="blank">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={web1}
+                  alt=""
+                />
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="https://sokoverse-beryl.vercel.app" target="blank">
-              <Image
-                className="rounded-lg object-cover cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web1}
-                alt=""
-              />
-              </a>
-            </div>
-            {/* <div className="basis-1/3 flex-1">
-            <a href="https://sokoverse-beryl.vercel.app" target="blank">
-              <Image
-                className="rounded-lg object-cover cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web1}
-              />
+              <a href="https://paysokosystems.vercel.app/" target="blank">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={web2}
+                  alt=""
+                />
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="https://sokoverse-beryl.vercel.app" target="blank">
-              <Image
-                className="rounded-lg object-cover cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web1}
-              />
+              <a href="https://www.theritzybirds.com/" target="blank">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={web3}
+                />
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="https://sokoverse-beryl.vercel.app" target="blank">
-              <Image
-                className="rounded-lg object-cover cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web1}
-              />
+              <a href="https://app.earnsoko.com/" target="blank">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={web4}
+                />
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="https://sokoverse-beryl.vercel.app" target="blank">
-              <Image
-                className="rounded-lg object-cover cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web1}
-              />
+              <a href="https://najua-bot.vercel.app/" target="blank">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={web5}
+                />
               </a>
-            </div> */}
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://portfolio-joseey23.vercel.app/" target="blank">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={web6}
+                />
+              </a>
+            </div>
           </div>
         </section>
       </main>
