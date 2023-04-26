@@ -60,7 +60,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 py-10">
+          <div className="text-center p-6 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Maruria Joseph
             </h2>
@@ -81,9 +81,9 @@ export default function Home() {
               >
                 <AiFillLinkedin />
               </a>
-              <a href="https://twitter.com/Joseey23" target="blank">
+              {/* <a href="https://twitter.com/Joseey23" target="blank">
                 <AiFillTwitterCircle />
-              </a>
+              </a> */}
               <a href="https://github.com/joseey23" target="blank">
                 <AiFillGithub />
               </a>
