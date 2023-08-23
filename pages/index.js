@@ -21,7 +21,7 @@ import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import portfolio from "../public/portfolio.png";
 import kaawa from "../public/kaawa.png";
 import paysoko from "../public/paysoko.png";
 import dadasoko from "../public/dadasoko.png";
@@ -181,7 +181,7 @@ export default function Home() {
 
           <div className="flex flex-row flex-wrap lg:flex gap-4 lg:gap-0 ">
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10  dark:bg-white">
-            <a href="https://sokoverse-beryl.vercel.app" target="blank">
+            <a href="https://landing.paysokosystems.com/" target="blank">
                 <Image
                   className="rounded-lg object-cover cursor-pointer"
                   width={"100%"}
@@ -199,7 +199,7 @@ export default function Home() {
 
             {/* #2 Works */}
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
-              <a href="https://sokoverse-beryl.vercel.app" target="blank">
+              <a href="https://kaawacoffee.com/" target="blank">
                 <Image
                   className="rounded-lg object-cover cursor-pointer"
                   width={"100%"}
@@ -216,7 +216,7 @@ export default function Home() {
             {/* #3 Works */}
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
-              <a href="https://sokoverse-beryl.vercel.app" target="blank">
+              <a href="https://landing.dadasoko.com/" target="blank">
                 <Image
                   className="rounded-lg object-cover cursor-pointer"
                   width={"100%"}
@@ -235,7 +235,7 @@ export default function Home() {
             {/* #4 Works */}
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
-            <a href="https://sokoverse-beryl.vercel.app" target="blank">
+            <a href="https://iamradico.org/" target="blank">
                 <Image
                   className="rounded-lg object-cover cursor-pointer"
                   width={"100%"}
@@ -254,7 +254,7 @@ export default function Home() {
             {/* #5 Works */}
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
-            <a href="https://sokoverse-beryl.vercel.app" target="blank">
+            <a href="http://coffeeklub.co.ke/" target="blank">
                 <Image
                   className="rounded-lg object-cover cursor-pointer"
                   width={"100%"}
@@ -272,7 +272,7 @@ export default function Home() {
 
             {/* #6 Works */}
 
-            <div className="w-1/3 text-center shadow-lg p-8 rounded-xl my-10 dark:bg-white">
+            <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
               <a href="https://sokoverse-beryl.vercel.app" target="blank">
                 <Image
                   className="rounded-lg object-cover cursor-pointer"
@@ -311,7 +311,7 @@ export default function Home() {
                 />
               </a>
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                DadaSoko Landing Page
+                PaySoko Systems UI
               </h3>
               {/* <p className="py-2">
                 I develop and bring to life web applications based on client's
@@ -340,15 +340,7 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 EarnSoko.
               </h3>
-              {/* <p className="py-2">
-                I develop and bring to life web applications based on client's
-                design and ideas.
-              </p>
-              <h4 className="py-4 text-teal-600">Development Tools</h4>
-              <p className="text-gray-800 py-1">ReactJS</p>
-              <p className="text-gray-800 py-1">NextJS</p>
-              <p className="text-gray-800 py-1">GhostCMS</p>
-              <p className="text-gray-800 py-1">WordpressCMS</p> */}
+              
             </div>
 
             {/* #9 Works */}
@@ -367,42 +359,26 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Najua (Open AI Powered Bot)
               </h3>
-              {/* <p className="py-2">
-                I develop and bring to life web applications based on client's
-                design and ideas.
-              </p>
-              <h4 className="py-4 text-teal-600">Development Tools</h4>
-              <p className="text-gray-800 py-1">ReactJS</p>
-              <p className="text-gray-800 py-1">NextJS</p>
-              <p className="text-gray-800 py-1">GhostCMS</p>
-              <p className="text-gray-800 py-1">WordpressCMS</p> */}
+              
             </div>
 
             {/* #10 Works */}
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-8 rounded-xl my-10 dark:bg-white">
-              <a href="https://portfolio-joseey23.vercel.app/" target="blank">
+              <a href="https://joesportfolio.vercel.app/" target="blank">
                 <Image
                   className="rounded-lg object-cover cursor-pointer"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                  src={web6}
+                  src={portfolio}
                   alt=""
                 />
               </a>
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 My Portfolio
               </h3>
-              {/* <p className="py-2">
-                I develop and bring to life web applications based on client's
-                design and ideas.
-              </p>
-              <h4 className="py-4 text-teal-600">Development Tools</h4>
-              <p className="text-gray-800 py-1">ReactJS</p>
-              <p className="text-gray-800 py-1">NextJS</p>
-              <p className="text-gray-800 py-1">GhostCMS</p>
-              <p className="text-gray-800 py-1">WordpressCMS</p> */}
+              
             </div>
 
           </div>
