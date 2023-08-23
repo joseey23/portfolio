@@ -265,7 +265,7 @@ export default function Home() {
                 />
               </a>
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                DadaSoko Landing Page
+                Coffee Klub KE
               </h3>
               
             </div>
