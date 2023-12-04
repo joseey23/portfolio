@@ -27,6 +27,10 @@ import paysoko from "../public/paysoko.png";
 import dadasoko from "../public/dadasoko.png";
 import coffeeklub from "../public/coffeeklub.png";
 import radico from "../public/radico.png";
+import Dadamodels  from "../public/Dadamodels.png";
+import Osirua from "../public/Osirua.png";
+import ChamaNet from "../public/ChamaNet.png";
+import Plugmtaani from "../public/Plugmtaani.png";
 import logo from "../public/joe1.png";
 
 export default function Home() {
@@ -212,6 +216,76 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 ">Kaawa Coffee</h3>
               
             </div>
+
+
+
+            <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
+              <a href="https://chamanet.co.ke/" target="blank">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={ChamaNet}
+                  alt=""
+                />
+              </a>
+              <h3 className="text-lg font-medium pt-8 pb-2 "> ChamaNet </h3>
+              
+            </div>
+
+
+            <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
+              <a href="https://dadamodels.com/" target="blank">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={Dadamodels}
+                  alt=""
+                />
+              </a>
+              <h3 className="text-lg font-medium pt-8 pb-2 "> DadaModels </h3>
+              
+            </div>
+
+
+            <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
+              <a href="https://osiruabundus.com/" target="blank">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={Osirua}
+                  alt=""
+                />
+              </a>
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Osirua Bundus</h3>
+              
+            </div>
+
+
+
+            <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
+              <a href="https://plugmtaani.org/" target="blank">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={Plugmtaani}
+                  alt=""
+                />
+              </a>
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Plug Mtaaani</h3>
+              
+            </div>
+
+
+
+
 
             {/* #3 Works */}
 
