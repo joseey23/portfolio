@@ -27,7 +27,7 @@ import paysoko from "../public/paysoko.png";
 import dadasoko from "../public/dadasoko.png";
 import coffeeklub from "../public/coffeeklub.png";
 import radico from "../public/radico.png";
-import Dadamodels  from "../public/Dadamodels.png";
+import Dadamodels from "../public/Dadamodels.png";
 import Osirua from "../public/Osirua.png";
 import ChamaNet from "../public/ChamaNet.png";
 import Plugmtaani from "../public/Plugmtaani.png";
@@ -65,7 +65,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1JQ6OL28KZ2Ww1Y6q8sxWAsQmxIzTYQof/view?usp=drive_link"
+                  href="https://1drv.ms/b/s!AiKB_OK0HmmpmDrae1205CtlMjIp?e=SqjgpS"
                   target="blank"
                 >
                   Resume
@@ -81,11 +81,12 @@ export default function Home() {
               Front-end Developer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Creative Front-End Developer with a passion for bringing digital
-              visions to life through captivating user interfaces. Proficient in leveraging
-              cutting-edge technologies, including Reactjs and Nextjs. Collaborative team player with outstanding
-              technical capabilities offering over 2 years of professional coding experience and
-              over 1 year of professional experience. 
+              Accomplished Front-End Developer transitioning to Full-Stack, with
+              expertise in React.js, Laravel, and WordPress. Proven ability to
+              enhance user engagement and operational efficiency, notably at
+              PaySoko Systems and the Kenya Revenue Authority. Passionate about
+              delivering user-centric solutions through innovative web
+              development.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 cursor-pointer">
               <a
@@ -177,15 +178,16 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Here are some of the
               <span className="text-teal-500"> past projects </span>I managed to
-              come up with over the years.
+              come up with over the years. To explore each project, simply click
+              on its title to delve into the details.
             </p>
           </div>
 
-            {/* new section */}
+          {/* new section */}
 
           <div className="flex flex-row flex-wrap lg:flex gap-4 lg:gap-0 ">
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10  dark:bg-white">
-            <a href="https://landing.paysokosystems.com/" target="blank">
+              <a href="https://landing.paysokosystems.com/" target="blank">
                 <Image
                   className="rounded-lg object-cover cursor-pointer"
                   width={"100%"}
@@ -198,7 +200,6 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 PaySoko Systems
               </h3>
-              
             </div>
 
             {/* #2 Works */}
@@ -214,10 +215,7 @@ export default function Home() {
                 />
               </a>
               <h3 className="text-lg font-medium pt-8 pb-2 ">Kaawa Coffee</h3>
-              
             </div>
-
-
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
               <a href="https://chamanet.co.ke/" target="blank">
@@ -231,9 +229,7 @@ export default function Home() {
                 />
               </a>
               <h3 className="text-lg font-medium pt-8 pb-2 "> ChamaNet </h3>
-              
             </div>
-
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
               <a href="https://dadamodels.com/" target="blank">
@@ -247,9 +243,7 @@ export default function Home() {
                 />
               </a>
               <h3 className="text-lg font-medium pt-8 pb-2 "> DadaModels </h3>
-              
             </div>
-
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
               <a href="https://osiruabundus.com/" target="blank">
@@ -263,10 +257,7 @@ export default function Home() {
                 />
               </a>
               <h3 className="text-lg font-medium pt-8 pb-2 ">Osirua Bundus</h3>
-              
             </div>
-
-
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
               <a href="https://plugmtaani.org/" target="blank">
@@ -280,12 +271,7 @@ export default function Home() {
                 />
               </a>
               <h3 className="text-lg font-medium pt-8 pb-2 ">Plug Mtaaani</h3>
-              
             </div>
-
-
-
-
 
             {/* #3 Works */}
 
@@ -303,13 +289,12 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 DadaSoko Landing Page
               </h3>
-             
             </div>
 
             {/* #4 Works */}
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
-            <a href="https://iamradico.org/" target="blank">
+              <a href="https://iamradico.org/" target="blank">
                 <Image
                   className="rounded-lg object-cover cursor-pointer"
                   width={"100%"}
@@ -319,16 +304,13 @@ export default function Home() {
                   alt=""
                 />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Radico Kenya.
-              </h3>
-              
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Radico Kenya.</h3>
             </div>
 
             {/* #5 Works */}
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
-            <a href="http://coffeeklub.co.ke/" target="blank">
+              <a href="http://coffeeklub.co.ke/" target="blank">
                 <Image
                   className="rounded-lg object-cover cursor-pointer"
                   width={"100%"}
@@ -338,10 +320,7 @@ export default function Home() {
                   alt=""
                 />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Coffee Klub KE
-              </h3>
-              
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Coffee Klub KE</h3>
             </div>
 
             {/* #6 Works */}
@@ -411,10 +390,7 @@ export default function Home() {
                   alt=""
                 />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-                EarnSoko.
-              </h3>
-              
+              <h3 className="text-lg font-medium pt-8 pb-2 ">EarnSoko.</h3>
             </div>
 
             {/* #9 Works */}
@@ -433,7 +409,6 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Najua (Open AI Powered Bot)
               </h3>
-              
             </div>
 
             {/* #10 Works */}
@@ -449,20 +424,9 @@ export default function Home() {
                   alt=""
                 />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-                My Portfolio
-              </h3>
-              
+              <h3 className="text-lg font-medium pt-8 pb-2 ">My Portfolio</h3>
             </div>
-
           </div>
-
-
-
-
-
-
-
 
           {/* <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
           <div className="w-1/3 flex-1 ">
