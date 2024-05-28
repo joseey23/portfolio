@@ -31,6 +31,8 @@ import Dadamodels from "../public/Dadamodels.png";
 import Osirua from "../public/Osirua.png";
 import ChamaNet from "../public/ChamaNet.png";
 import Plugmtaani from "../public/Plugmtaani.png";
+import Plugmtaanifoundation from "../public/Plugmtaanifoundation.png";
+import Plugroom from "../public/Plugroom.png";
 import logo from "../public/joe1.png";
 
 export default function Home() {
@@ -68,7 +70,7 @@ export default function Home() {
                   href="https://1drv.ms/b/s!AiKB_OK0HmmpmDrae1205CtlMjIp?e=SqjgpS"
                   target="blank"
                 >
-                  Resume
+                  MY CV.
                 </a>
               </li>
             </ul>
@@ -166,8 +168,8 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-teal-600">Development Tools</h4>
               <p className="text-gray-800 py-1">ReactJS</p>
-              <p className="text-gray-800 py-1">NextJS</p>
-              <p className="text-gray-800 py-1">GhostCMS</p>
+              <p className="text-gray-800 py-1">HTML&CSS</p>
+              <p className="text-gray-800 py-1">Laravel</p>
               <p className="text-gray-800 py-1">WordpressCMS</p>
             </div>
           </div>
@@ -186,6 +188,8 @@ export default function Home() {
           {/* new section */}
 
           <div className="flex flex-row flex-wrap lg:flex gap-4 lg:gap-0 ">
+            {/* 1 Work */}
+
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10  dark:bg-white">
               <a href="https://landing.paysokosystems.com/" target="blank">
                 <Image
@@ -197,25 +201,33 @@ export default function Home() {
                   alt=""
                 />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                PaySoko Systems
-              </h3>
+              <a href="https://landing.paysokosystems.com/" target="blank">
+                <h3 className="text-lg font-medium pt-8 pb-2  ">
+                  PaySoko Systems Landing Page.
+                </h3>
+              </a>
             </div>
 
             {/* #2 Works */}
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
-              <a href="https://kaawacoffee.com/" target="blank">
+              <a href="https://landing.dadasoko.com/" target="blank">
                 <Image
                   className="rounded-lg object-cover cursor-pointer"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                  src={kaawa}
+                  src={dadasoko}
                   alt=""
                 />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Kaawa Coffee</h3>
+              <a href="https://landing.dadasoko.com/" target="blank">
+                <h3 className="text-lg font-medium pt-8 pb-2 ">
+                  DadaSoko Landing Page.
+                </h3>
+              </a>
             </div>
+
+            {/* #3 Works */}
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
               <a href="https://chamanet.co.ke/" target="blank">
@@ -228,36 +240,15 @@ export default function Home() {
                   alt=""
                 />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 "> ChamaNet </h3>
+              <a href="https://chamanet.co.ke/" target="blank">
+                <h3 className="text-lg font-medium pt-8 pb-2 ">
+                  {" "}
+                  ChamaNet Kenya.{" "}
+                </h3>
+              </a>
             </div>
 
-            <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
-              <a href="https://dadamodels.com/" target="blank">
-                <Image
-                  className="rounded-lg object-cover cursor-pointer"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={Dadamodels}
-                  alt=""
-                />
-              </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 "> DadaModels </h3>
-            </div>
-
-            <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
-              <a href="https://osiruabundus.com/" target="blank">
-                <Image
-                  className="rounded-lg object-cover cursor-pointer"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={Osirua}
-                  alt=""
-                />
-              </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Osirua Bundus</h3>
-            </div>
+            {/* #4 Works */}
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
               <a href="https://plugmtaani.org/" target="blank">
@@ -270,28 +261,34 @@ export default function Home() {
                   alt=""
                 />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Plug Mtaaani</h3>
+              <a href="https://plugmtaani.org/" target="blank">
+                <h3 className="text-lg font-medium pt-8 pb-2 ">
+                  Plug Mtaani Business Competition.
+                </h3>
+              </a>
             </div>
 
-            {/* #3 Works */}
+            {/* #5 Works */}
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
-              <a href="https://landing.dadasoko.com/" target="blank">
+              <a href="https://plugmtaanifoundation.org/" target="blank">
                 <Image
                   className="rounded-lg object-cover cursor-pointer"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                  src={dadasoko}
+                  src={Plugmtaanifoundation}
                   alt=""
                 />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-                DadaSoko Landing Page
-              </h3>
+              <a href="https://plugmtaanifoundation.org/" target="blank">
+                <h3 className="text-lg font-medium pt-8 pb-2 ">
+                  Plug Mtaani Foundation.
+                </h3>
+              </a>
             </div>
 
-            {/* #4 Works */}
+            {/* #6 Works */}
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
               <a href="https://iamradico.org/" target="blank">
@@ -304,10 +301,72 @@ export default function Home() {
                   alt=""
                 />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Radico Kenya.</h3>
+              <a href="https://iamradico.org/" target="blank">
+                <h3 className="text-lg font-medium pt-8 pb-2 ">
+                  Radico Kenya.
+                </h3>
+              </a>
             </div>
 
-            {/* #5 Works */}
+            {/* #7 Works */}
+
+            <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
+              <a href="https://osiruabundus.com/" target="blank">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={Osirua}
+                  alt=""
+                />
+              </a>
+              <a href="https://osiruabundus.com/" target="blank">
+                <h3 className="text-lg font-medium pt-8 pb-2 ">
+                  Osirua Bundus Rental Vacation Home.
+                </h3>
+              </a>
+            </div>
+
+            {/* #8 Works */}
+
+            <div className="w-full lg:w-1/3 text-center shadow-lg p-8 rounded-xl my-10 dark:bg-white">
+              <a href="https://room.niplug.com/" target="blank">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={Plugroom}
+                  alt=""
+                />
+              </a>
+              <a href="https://room.niplug.com/" target="blank">
+                <h3 className="text-lg font-medium pt-8 pb-2 ">
+                  Plug Room by NiPlug.
+                </h3>
+              </a>
+            </div>
+
+            {/* #9 Works */}
+
+            <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
+              <a href="https://dadamodels.com/" target="blank">
+                <Image
+                  className="rounded-lg object-cover cursor-pointer"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={Dadamodels}
+                  alt=""
+                />
+              </a>
+              <a href="https://dadamodels.com/" target="blank">
+                <h3 className="text-lg font-medium pt-8 pb-2 "> DadaModels </h3>
+              </a>
+            </div>
+
+            {/* #10 Works */}
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
               <a href="http://coffeeklub.co.ke/" target="blank">
@@ -320,10 +379,14 @@ export default function Home() {
                   alt=""
                 />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Coffee Klub KE</h3>
+              <a href="http://coffeeklub.co.ke/" target="blank">
+                <h3 className="text-lg font-medium pt-8 pb-2 ">
+                  Coffee Klub KE
+                </h3>
+              </a>
             </div>
 
-            {/* #6 Works */}
+            {/* #11 Works */}
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
               <a href="https://sokoverse-beryl.vercel.app" target="blank">
@@ -336,21 +399,14 @@ export default function Home() {
                   alt=""
                 />
               </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-                SokoVerse Landing Page
-              </h3>
-              {/* <p className="py-2">
-                I develop and bring to life web applications based on client's
-                design and ideas.
-              </p>
-              <h4 className="py-4 text-teal-600">Development Tools</h4>
-              <p className="text-gray-800 py-1">ReactJS</p>
-              <p className="text-gray-800 py-1">NextJS</p>
-              <p className="text-gray-800 py-1">GhostCMS</p>
-              <p className="text-gray-800 py-1">WordpressCMS</p> */}
+              <a href="https://sokoverse-beryl.vercel.app" target="blank">
+                <h3 className="text-lg font-medium pt-8 pb-2 ">
+                  SokoVerse Landing Page
+                </h3>
+              </a>
             </div>
 
-            {/* #7 Works */}
+            {/* #12 Works */}
 
             <div className="w-full lg:w-1/3 text-center shadow-lg p-8 rounded-xl my-10 dark:bg-white">
               <a href="https://paysokosystems.vercel.app/" target="blank">
@@ -366,82 +422,12 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 PaySoko Systems UI
               </h3>
-              {/* <p className="py-2">
-                I develop and bring to life web applications based on client's
-                design and ideas.
-              </p>
-              <h4 className="py-4 text-teal-600">Development Tools</h4>
-              <p className="text-gray-800 py-1">ReactJS</p>
-              <p className="text-gray-800 py-1">NextJS</p>
-              <p className="text-gray-800 py-1">GhostCMS</p>
-              <p className="text-gray-800 py-1">WordpressCMS</p> */}
             </div>
 
-            {/* #8 Works */}
+            {/* #13 Works */}
 
-            <div className="w-full lg:w-1/3 text-center shadow-lg p-8 rounded-xl my-10 dark:bg-white">
-              <a href="https://app.earnsoko.com/" target="blank">
-                <Image
-                  className="rounded-lg object-cover cursor-pointer"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web4}
-                  alt=""
-                />
-              </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">EarnSoko.</h3>
-            </div>
-
-            {/* #9 Works */}
-
-            <div className="w-full lg:w-1/3 text-center shadow-lg p-8 rounded-xl my-10 dark:bg-white">
-              <a href="https://najua-bot.vercel.app/" target="blank">
-                <Image
-                  className="rounded-lg object-cover cursor-pointer"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web5}
-                  alt=""
-                />
-              </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Najua (Open AI Powered Bot)
-              </h3>
-            </div>
-
-            {/* #10 Works */}
-
-            <div className="w-full lg:w-1/3 text-center shadow-lg p-8 rounded-xl my-10 dark:bg-white">
-              <a href="https://joesportfolio.vercel.app/" target="blank">
-                <Image
-                  className="rounded-lg object-cover cursor-pointer"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={portfolio}
-                  alt=""
-                />
-              </a>
-              <h3 className="text-lg font-medium pt-8 pb-2 ">My Portfolio</h3>
-            </div>
-          </div>
-
-          {/* <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-          <div className="w-1/3 flex-1 ">
-              <a href="https://sokoverse-beryl.vercel.app" target="blank">
-                <Image
-                  className="rounded-lg object-cover cursor-pointer"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={paysoko}
-                  alt=""
-                />
-              </a>
-            </div><div className="w-1/3 flex-1 ">
-              <a href="https://sokoverse-beryl.vercel.app" target="blank">
+            <div className="w-full lg:w-1/3 text-center shadow-lg p-4 lg:p-10 rounded-xl my-4 lg:my-10 dark:bg-white">
+              <a href="https://kaawacoffee.com/" target="blank">
                 <Image
                   className="rounded-lg object-cover cursor-pointer"
                   width={"100%"}
@@ -451,91 +437,16 @@ export default function Home() {
                   alt=""
                 />
               </a>
-            </div>
-            <div className="w-1/3 flex-1 ">
-              <a href="https://sokoverse-beryl.vercel.app" target="blank">
-                <Image
-                  className="rounded-lg object-cover cursor-pointer"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={dadasoko}
-                  alt=""
-                />
+              <a href="https://kaawacoffee.com/" target="blank">
+                <h3 className="text-lg font-medium pt-8 pb-2 ">
+                  Kaawa Coffee.
+                </h3>
               </a>
             </div>
-            <div className="w-1/3 flex-1 ">
-              <a href="https://sokoverse-beryl.vercel.app" target="blank">
-                <Image
-                  className="rounded-lg object-cover cursor-pointer"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={radico}
-                  alt=""
-                />
-              </a>
-            </div>
-            <div className="w-1/3 flex-1 ">
-              <a href="https://sokoverse-beryl.vercel.app" target="blank">
-                <Image
-                  className="rounded-lg object-cover cursor-pointer"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={coffeeklub}
-                  alt=""
-                />
-              </a>
-            </div>
-            
-            <div className="w-1/3 flex-1 ">
-              <a href="https://sokoverse-beryl.vercel.app" target="blank">
-                <Image
-                  className="rounded-lg object-cover cursor-pointer"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web1}
-                  alt=""
-                />
-              </a>
-            </div>
-            <div className="w-1/3 flex-1">
-              <a href="https://paysokosystems.vercel.app/" target="blank">
-                <Image
-                  className="rounded-lg object-cover cursor-pointer"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web2}
-                  alt=""
-                />
-              </a>
-            </div>
-            <div className="w-1/3 flex-1">
-              <a href="https://www.theritzybirds.com/" target="blank">
-                <Image
-                  className="rounded-lg object-cover cursor-pointer"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web3}
-                />
-              </a>
-            </div>
-            <div className="w-1/3 flex-1">
-              <a href="https://app.earnsoko.com/" target="blank">
-                <Image
-                  className="rounded-lg object-cover cursor-pointer"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web4}
-                />
-              </a>
-            </div>
-            <div className="w-1/3 flex-1">
+
+            {/* #14 Works */}
+
+            <div className="w-full lg:w-1/3 text-center shadow-lg p-8 rounded-xl my-10 dark:bg-white">
               <a href="https://najua-bot.vercel.app/" target="blank">
                 <Image
                   className="rounded-lg object-cover cursor-pointer"
@@ -543,21 +454,16 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={web5}
+                  alt=""
                 />
               </a>
-            </div>
-            <div className="w-1/3 flex-1">
-              <a href="https://portfolio-joseey23.vercel.app/" target="blank">
-                <Image
-                  className="rounded-lg object-cover cursor-pointer"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web6}
-                />
+              <a href="https://najua-bot.vercel.app/" target="blank">
+                <h3 className="text-lg font-medium pt-8 pb-2 ">
+                  Najua (Open AI Powered Bot)
+                </h3>
               </a>
             </div>
-          </div> */}
+          </div>
         </section>
       </main>
     </div>
